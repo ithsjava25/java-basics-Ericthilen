@@ -214,5 +214,6 @@ public class Main {
         System.out.println("  --date      Datum i format YYYY-MM-DD (default: idag)");
         System.out.println("  --sorted    Sortera priser fallande (dyrast först)");
         System.out.println("  --charging  Laddningstid: 2h, 4h eller 8h");
+        System.out.println("  --help      Visa denna hjälptext");
     }
 }
