@@ -196,7 +196,7 @@ public class Main {
                 int hour = p.timeStart().getHour();
                 int minute =  p.timeStart().getMinute();
                 double ore =  p.sekPerKWh() * 100;
-                String oreFormatted = String.format("%.2f", ore).replace('.', '.');
+                String oreFormatted = String.format("%.2f", ore).replace('.', ',');
                 System.out.println("kl " + String.format("%02d:%02d", hour, minute) + " " + oreFormatted + " öre");
             }
 
